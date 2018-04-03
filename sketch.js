@@ -1,5 +1,5 @@
 //my matrix rain
-var tgröße = 15;
+var tgröße = 16;
 var reihen = [];
 
 function setup() {
