@@ -3,7 +3,7 @@ var tgröße = 16;
 var reihen = [];
 
 function setup() {
-  createCanvas(innerWidth, innerHeight-4);
+  createCanvas(innerWidth, innerHeight);
   for(var i=0;i*tgröße<width;i++){
     reihen.push(new Reihe(i));
     reihen[i].ini();
