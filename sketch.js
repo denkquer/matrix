@@ -3,11 +3,14 @@ var tgröße = 16;
 var reihen = [];
 
 function setup() {
-  createCanvas(innerWidth, innerHeight);
+  let coin = createCanvas(innerWidth, innerHeight);
   for(var i=0;i*tgröße<width;i++){
     reihen.push(new Reihe(i));
     reihen[i].ini();
   }
+  
+    //true fullscreen! canvas only
+  coin.canvas.style.display = 'block';
 }
 
 function windowResized() {
