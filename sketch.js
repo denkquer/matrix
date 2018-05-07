@@ -10,6 +10,10 @@ function setup() {
   }
 }
 
+function windowResized() {
+  resizeCanvas(innerWidth, innerHeight);
+}
+
 function draw() {
   background(0);
 
